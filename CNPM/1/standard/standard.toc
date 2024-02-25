@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {6}Quality model for external and internal quality}{2}{}%
+\contentsline {subsection}{\numberline {6.1}Functionality}{2}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Accuracy}{2}{}%
+\contentsline {subsubsection}{\numberline {6.1.3}Interoperability}{2}{}%
+\contentsline {subsection}{\numberline {6.2}Reliability}{3}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Maturity}{3}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Fault tolerance}{3}{}%
+\contentsline {subsection}{\numberline {6.3}Usability}{4}{}%
+\contentsline {subsubsection}{\numberline {6.3.1}Understandability}{4}{}%
+\contentsline {subsubsection}{\numberline {6.3.2}Learnability}{4}{}%
+\contentsline {subsection}{\numberline {6.4}Efficiency}{4}{}%
+\contentsline {subsubsection}{\numberline {6.4.1}Time behavior}{4}{}%
+\contentsline {subsubsection}{\numberline {6.4.2}Resource utilization}{5}{}%
+\contentsline {subsection}{\numberline {6.5}Maintainability}{5}{}%
+\contentsline {subsubsection}{\numberline {6.5.3}Stability}{5}{}%
+\contentsline {subsection}{\numberline {6.6}Portability}{5}{}%
