@@ -1,0 +1,67 @@
+\documentclass[12pt]{report}
+
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\title{GIẢI TÍCH 1}
+
+\author{Nguyễn Minh Hiển}
+
+\date{03-02-2022}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{\centering Ánh xạ}
+    \section{Định nghĩa}
+        \subsection{}
+            Ánh xạ từ tập $E$ tới tập $F$ là một quy luật f liên hệ giữa $E$ và $F$
+            sao cho khi nó tác động tới một phần tử của tập $E$ sẽ tạo ra \textbf{một và chỉ một} phần tử của $F$
+            
+            Kí hiệu ánh xạ:
+            \begin{center}
+                $f : E \rightarrow F$ hay là $E \xrightarrow{f} F$\\
+            \end{center}
+            Trong đó $E$ là tập nguồn, $F$ là tập đích.
+            $y \in F$ được tạo ra bởi phần tử $x \in E$ bởi quy luật $f$ gọi là ảnh của $x$, $x$ gọi là nghịch ảnh hay tạo ảnh của y.
+            $$y = f(x), x \mapsto y$$
+
+        \subsection{}
+            Tập tạo bởi các ảnh của tất cả các phần tử $x \in E$ gọi là ảnh của $E$ qua $f$, viết là $f(E)$
+            và $f(E) \subset F$
+        
+        \subsection{} 
+            Nếu $A \subset E$ thì tập $f(A) = {y | y = f(x), x \in A}$ gọi là ảnh của $A$ qua $f$.\\
+            Nếu $B \subset F$ thì tập $f^{-1}(B) = {x | x \in E, f(x) = y \in B}$ gọi là nghịch ảnh của $B$ trong ánh xạ $f$.
+
+        \subsection{Đơn ánh}
+            Ánh xạ $f : E \rightarrow F$ gọi là một \textbf{đơn ánh} nếu:
+            $$f(x_1) = f(x_2) \Leftrightarrow x_1 = x_2$$
+        
+        \subsection{Toàn ánh}
+            Ánh xạ $f : E \rightarrow F$ gọi là một \textbf{toàn ánh} nếu:
+            $$f(E) = F$$
+        
+        \subsection{Song ánh}
+            Ánh xạ $f : E \rightarrow F$ gọi là một \textbf{song ánh} nếu
+            nó vừa là đơn ánh, vừa là toàn ánh.
+
+        \subsection{Ánh xạ ngược của song ánh}
+            Cho song ánh $f : E \rightarrow F$. Tạo ra 1 ánh xạ ngược $f^-1: F \rightarrow E$ 
+            
+        \subsection{Hợp (tích) của hai ánh xạ}
+            Cho 3 tập $E, F, G$, và 2 ánh xạ $f: E \rightarrow F, g: F \rightarrow G$.\\
+            Ánh xạ $E \rightarrow G$ xác định bởi $x \in E \mapsto z = g(f(x)) \in G$ là hợp 
+            của f và g, ký hiệu $g \circ f: E \rightarrow G$
+        
+\chapter{\centering Tập số thực}
+
+\chapter{\centering Giới hạn}
+
+\end{document}

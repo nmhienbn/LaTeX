@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[utf8]{vietnam}
+\usepackage[left = 1cm, right = 1cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{changepage}
+
+\begin{document}
+
+1.
+$\text{tmp1}\leftarrow {{\sigma }_{\text{MaSach='The Lost Tribe'}}}\left( \text{SACH} \right)\underset{\text{MaSach}=\text{MaSach}}{\mathop{*}}\,\text{SACH_BANSAO}$
+$\text{tmp2}\leftarrow \text{tmp1}\underset{\text{MaNhanh}=\text{MaNhanh}}{\mathop{*}}\,{{\sigma }_{\text{MaNhanh='Shapstow'}}}\left( \text{NHANH_THUVIEN} \right)$
+$\text{res}\leftarrow {{\pi }_{\text{SoLuongBanSao}}}\left( \text{tmp2} \right)$
+
+2.
+$\text{tmp}\leftarrow {{\sigma }_{\text{MaSach='TheLostTribe'}}}\left( \text{SACH} \right)\underset{\text{MaSach}=\text{MaSach}}{\mathop{*}}\,\text{SACH_BANSAO}$
+$\text{res}\leftarrow {{\Im }_{\text{SUM(SoLuongBanSao)}}}\left( \text{tmp} \right)$
+
+3.
+$\text{tmp}\leftarrow {{\pi }_{SoThe}}\left( \text{SACH_MUON} \right)\underset{\text{SoThe}=\text{SoThe}}{\mathop{*}}\,\text{NGUOI_MUON}$
+$\text{res}\leftarrow \text{NGUOI_MUON-tmp}$
+
+4.
+$\text{tmp1}\leftarrow {{\sigma }_{\text{NgayTra=CURDATE()}}}\left( \text{SACH_MUON} \right)\underset{\text{MaNhanh}=\text{MaNhanh}}{\mathop{*}}\,{{\sigma }_{\text{MaNhanh='Shapstow'}}}\left( \text{NHANH_THUVIEN} \right)$
+$\text{tmp2}\leftarrow \text{tmp1}\underset{\text{SoThe}=\text{SoThe}}{\mathop{*}}\,\text{NGUOIMUON}$
+$\text{tmp3}\leftarrow \text{tmp2}\underset{\text{MaSach}=\text{MaSach}}{\mathop{*}}\,\text{SACH}$
+$\text{res}\leftarrow {{\pi }_{\text{TenSach, TenNguoiMuon, DiaChiNguoiMuon}}}\left( \text{tmp3} \right)$
+
+5.
+$\text{tmp1}\leftarrow \text{NHANH_THUVIEN}\underset{\text{MaNhanh}=\text{MaNhanh}}{\mathop{*}}\,\text{SACH _ BANSAO}$
+$\text{res}\leftarrow {{\pi }_{\text{TenNhanh, COUNT()}}}\left( {}_{\text{MaNhanh}}{{\Im }_{\text{COUNT()}}}\left( \text{tmp1} \right) \right)$
+
+6.
+$\text{tmp1}\leftarrow \text{SACH _ MUON}\underset{\text{SoThe}=\text{SoThe}}{\mathop{*}}\,\text{NGUOI_MUON}$
+$\text{tmp2}\leftarrow {{\sigma }_{\text{COUNT() >=5}}}\left( {}_{\text{SoThe}}{{\Im }_{\text{COUNT()}}}\left( \text{tmp1} \right) \right)$
+$\text{res}\leftarrow {{\pi }_{\text{Ten, DiaChi, DienThoai}}}\left( \text{tmp2} \right)$
+
+7.
+$\text{tmp1}\leftarrow \text{SACH}\underset{\text{MaSach=MaSach}}{\mathop{\text{*}}}\,{{\sigma }_{\text{TenTG='Stephen King'}}}\left( \text{SACH_TACGIA} \right)$$\text{tmp2}\leftarrow \text{SACH_BANSAO}\underset{\text{MaNhanh=MaNhanh}}{\mathop{\text{*}}}\,{{\sigma }_{\text{TenNhanh='Central'}}}\left( \text{NHANH_THUVIEN} \right)$$\text{tmp3}\leftarrow \text{tmp1}\underset{\text{MaSach=MaSach}}{\mathop{\text{*}}}\,\text{tmp2}$
+$\text{res}\leftarrow {{\pi }_{\text{TenSach, SoLuongBanSao}}}\left( \text{tmp3} \right)$
+
+
+
+\end{document}
