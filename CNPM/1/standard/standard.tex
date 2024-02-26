@@ -1,4 +1,5 @@
 \documentclass[14pt]{extarticle}
+\usepackage{multicol}
 \usepackage[utf8]{vietnam}
 \usepackage[left = 2cm, right = 2cm]{geometry}
 \usepackage{amsmath}
@@ -6,12 +7,15 @@
 \usepackage{amssymb}
 \usepackage{mathtools}
 \usepackage{changepage}
+\title{Information technology — Software product quality}
+\author{Nguyễn Minh Hiển}
 
 \begin{document}
 \newpage
+\maketitle
 \tableofcontents
-\newpage
 
+\newpage
 \setcounter{section}{5}
 \section{Quality model for external and internal quality}
 
@@ -92,10 +96,9 @@ Understandability (tính dễ hiểu) là khả năng của phần mềm cho ph�
 hiểu được liệu phần mềm có phù hợp và có thể sử dụng trong nhiệm vụ và
 điều kiện cụ thể.\\
 Một phần mềm có dễ hiểu hay không sẽ phụ thuộc vào độ phức tạp của phần mềm.
-Cụ thể, độ phức tạp của phần mềm có thể sử dụng các chỉ số phần mềm Halstead
-(Halstead’s Software metrics):
-program length, vocabulary size, program volume, program difficulty,
-program effort, time to implement.
+Cụ thể, độ phức tạp của phần mềm có thể sử dụng các chỉ số: 
+LOC (Lines of Code - số lượng dòng code trong mã nguồn của phần mềm), 
+FP (function point - số lượng chức năng mà phần mềm cung cấp), ... để đo.
 Các chỉ số này càng cao thì phần mềm càng phức tạp và khó hiểu.
 
 \subsubsection{Learnability}
@@ -141,13 +144,41 @@ cùng lượng tài nguyên mà một phần mềm (hay service) đang sử dụ
 
 
 \subsection{Maintainability}
-\setcounter{subsubsection}{2}
-\subsubsection{Stability}
-Stability (tính ổn định) là khả năng của phần mềm tránh ảnh hưởng không mong
-muốn từ việc sửa đổi phần mềm.\\
-
+\setcounter{subsubsection}{1}
+\subsubsection{Changeability}
+Changeability (tính thay đổi) là khả năng của phần mềm cho phép một số
+chỉnh sửa cụ thể được triển khai.\\
+Đầu tiên em cần đo về độ phức tạp của mã nguồn của phần mềm. Ở đây, em sử
+dụng hai chỉ số: LOC (Lines of Code - số lượng dòng code trong mã nguồn của phần mềm), 
+FP (function point - số lượng chức năng mà phần mềm cung cấp), ... để đo.\\
+Thứ hai, em cần xem xét về tính module hóa của phần mềm. 
+Cụ thể là phần mềm được chia thành nhiều thành phần con riêng biệt, mỗi thành phần
+con có thể thay đổi mà không ảnh hưởng đến các thành phần khác. Như vậy
+thay đổi một chức năng chỉ ảnh hưởng đến một số module cụ thể, không ảnh hưởng
+đến toàn bộ phần mềm.\\
+Thứ ba, em sẽ đo số thư viện, Framework, API, ... bên ngoài mà phần mềm sử dụng.
+Các thư viện này càng được dùng nhiều thì phần mềm càng khó thay đổi (bởi
+không thể chỉnh sửa trực tiếp các thư viện này).\\
+Thứ tư, cũng như quan trọng nhất là thiết kế của phần mềm. Thiết kế phần mềm
+càng tốt, các tài liệu đi kèm càng nhiều thì phần mềm càng dễ thay đổi một 
+cách chính xác.
 
 \subsection{Portability}
-
+\setcounter{subsubsection}{1}
+\subsubsection{Installability}
+Installability (khả năng cài đặt) là khả năng của một phần mềm cài đặt
+được trên một môi trường cụ thể.\\
+Thứ nhất, em cần phải đo số lượng yêu cầu của phần mềm này đối với hệ thống
+(càng nhiều yêu cầu thì càng khó cài đặt). Ví dụ như một số phần mềm yêu
+cầu .NET Framework, Java Runtime Environment, ... hay thậm chí là yêu cầu về 
+cấu hình của máy tính.\\
+Thứ hai, em cần phải đo thời gian cài đặt phần mềm và số bước cần thực hiện
+trên các hệ thống khác nhau. Phần mềm cài đặt nhanh và ít bước cài đặt
+thì Installability càng cao.\\
+Thứ ba, em cần phải đo số lượng lỗi xảy ra trong quá trình cài đặt phần mềm
+và các lỗi đó được khắc phục như thế nào. Phần mềm cài đặt càng ít lỗi
+và lỗi được khắc phục nhanh chóng thì Installability càng cao.\\
+Cuối cùng là những thiết lập cần thiết sau khi cài đặt phần mềm. Phần mềm
+càng ít thiết lập cần thiết sau khi cài đặt thì Installability càng cao.
 
 \end{document}
