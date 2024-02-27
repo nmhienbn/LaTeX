@@ -1,0 +1,148 @@
+\documentclass[14pt]{extarticle}
+\usepackage{multicol}
+\usepackage[utf8]{vietnam}
+\usepackage[left = 2cm, right = 2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{changepage}
+\title{Software Engineering Code - ACM Ethics}
+\author{Nguyễn Minh Hiển}
+
+
+\usepackage{titlesec}
+% Redefine section format
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{Principle \thesection}{1em}{}
+
+% Redefine subsection format
+\titleformat{\subsection}
+{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\begin{document}
+\newpage
+\maketitle
+\tableofcontents
+\newpage
+
+\section{PUBLIC}
+\subsection{Accept full responsibility for their own work}
+Ví dụ: Khi một kĩ sư phần mềm được nhiệm vụ phát triển một tính
+năng mới cho một phần mềm và trong quá trình làm việc, người này phát
+hiện ra một lỗi lớn có ảnh hưởng nghiêm trọng đến người dùng. \\
+"Chịu trách nhiệm hoàn toàn cho công việc của mình" có nghĩa là người này
+phải có trách nhiệm thông báo về lỗi đó cho người quản lý và 
+cùng với đồng nghiệp tìm cách giải quyết vấn đề trước khi triển khai 
+tính năng mới đó. Nếu không, người này sẽ phải chịu trách nhiệm 
+về hậu quả của lỗi đó.
+
+\setcounter{subsection}{2}
+\subsection{Approve software only if they have a well-founded 
+belief that it is safe, meets specifications, passes appropriate 
+tests, and does not diminish quality of life, diminish privacy or 
+harm the environment. The ultimate effect of the work should be to 
+the public good.}
+Ví dụ: Trước khi phát hành một phần mềm liên quan đến thông tin 
+cá nhân của người dùng, nhóm phát triển phần mềm cần phải tiến 
+hành kiểm tra kỹ lưỡng để đảm bảo phần mềm đáp ứng được các tiêu chuẩn
+an toàn, không rõ rỉ dữ liệu ảnh hưởng đến quyền riêng tư của người 
+dùng, hạn chế việc các hacker tấn công ăn cắp thông tin cá nhân. Họ
+cũng cần đảm bảo phần mềm mang lại lợi ích chung cho cộng đồng, tránh
+gây hậu quả xấu đến phần lớn người sử dụng.
+
+\section{CLIENT AND EMPLOYER}
+\subsection{Provide service in their areas of competence, being 
+honest and forthright about any limitations of their experience 
+and education.}
+Ví dụ: Trong quá trình làm việc, nếu kỹ sư phần mềm được giao nhiệm vụ
+phát triển một tính năng mà người này không có kinh nghiệm hoặc kiến thức
+về lĩnh vực đó, người này cần phải thẳng thắn trao đổi với người 
+quản lý và đồng nghiệp để tìm ra giải pháp tốt nhất. Thay vì cố gắng
+làm việc ở lĩnh vực mà bản thân không đủ hiểu biết, người đó có thể
+được phân công nhiệm vụ khác phù hợp với năng lực của mình hoặc
+học hỏi và cải thiện kiến thức của mình từ đồng nghiệp.
+
+\subsection{Not knowingly use software that is obtained or retained 
+either illegally or unethically}
+Ví dụ: Khi sử dụng một phần mềm, chúng ta phải đọc kỹ các điều khoản
+sử dụng và đảm bảo rằng phần mềm đó được cài đặt và sử dụng hợp pháp.
+Không sử dụng các phần mềm bản quyền không hợp pháp (như việc crack
+hay lợi dụng các lỗ hổng để không trả phí sử dụng phần mềm).
+Không sử dụng phần mềm có chứa mã độc hại, virus, trojan, worm... 
+gây phát tán các mã độc này sang các máy tính khác.
+
+\section{PRODUCT}
+\setcounter{subsection}{6}
+\subsection{Strive to fully understand the specifications for 
+software on which they work.}
+Ví dụ: Trước khi bắt đầu phát triển một phần mềm, kỹ sư phần mềm cần
+dành thời gian nghiên cứu các đặc tả của phần mềm, hiểu rõ yêu cầu
+về chức năng, giao diện người dùng, hiệu suất và bảo mật. Họ cần phải
+thảo luận một cách chi tiết với bộ phận kỹ thuật và bộ phận chăm
+sóc khách hàng để đảm bảo hiểu đúng về yêu cầu của khách hàng đối với
+phần mềm.
+
+\section{JUDGMENT}
+\setcounter{subsection}{2}
+\subsection{Maintain professional objectivity with respect to any 
+software or related documents they are asked to evaluate.}
+Ví dụ: Khi một nhóm kiểm thử phần mềm tiến hành việc kiểm tra, họ 
+phải đảm bảo rằng mọi chức năng của phần mềm đều phải được kiểm tra
+và đánh giá một cách công bằng, khách quan. Dù có mối quan hệ quen biết
+với nhà phát triển hay khách hàng thì vẫn luôn phải giữ vững sự chuyên
+nghiệp và không để yếu tố cá nhân nào ảnh hưởng đến quá trình đánh giá.
+Như vậy, kết quả đánh giá sẽ đáng tin cậy và chính xác.
+
+\section{MANAGEMENT}
+\setcounter{subsection}{3}
+\subsection{Assign work only after taking into account appropriate 
+contributions of education and experience tempered with a desire to 
+further that education and experience.}
+Ví dụ: Khi phân công công việc cho các nhân viên, người quản lý cần
+phải xem xét kỹ lưỡng về năng lực, kinh nghiệm và kiến thức của từng
+nhân viên để đảm bảo công việc được thực hiện một cách hiệu quả. Tuy
+nhiên, cũng không nên chỉ dựa vào bằng cấp hay kinh nghiệm trước đó, 
+mà nên dựa vào cả mong muốn được học hỏi và phát triển để giúp đỡ,
+cho họ cơ hội thử thách và phát triển kỹ năng mới, có thể để cho người
+này hỗ trợ các đồng nghiệp đã có năng lực, kinh nghiệm trước đó.
+
+\section{PROFESSION}
+\setcounter{subsection}{9}
+\subsection{Avoid associations with businesses and organizations 
+which are in conflict with this code.}
+Ví dụ: Một kỹ sư phần mềm được mời tham gia vào một dự án phần mềm với 
+một công ty có liên quan đến việc thu thập và sử dụng dữ liệu cá nhân 
+một cách không minh bạch (như việc hack các tài khoản mạng xã hội) 
+hoặc kinh doanh một sản phẩm bất hợp pháp, trái đạo đức (như văn hóa
+phẩm đồi trụy, cờ bạc). Dù dự án có thể mang lại nhiều lợi ích kinh tế
+nhưng hoạt động của công ty đó có thể xâm phạm quyền riêng tư người dùng
+hay trái với pháp luật, đạo đức. Vì vậy, thay vì tham gia vào dự án đó, 
+ta cần phải từ chối và tìm cách phản ánh với cơ quan chức năng để ngăn
+chặn hoạt động xâm phạm quyền lợi người dùng của công ty.
+
+\section{COLLEAGUES}
+\setcounter{subsection}{2}
+\subsection{Credit fully the work of others and refrain from taking undue credit}
+Ví dụ: Khi vừa hoàn thành một sản phẩm và công bố, công lao của tất cả
+mọi người tham gia vào dự án phần mềm đó cần được công nhận đầy đủ.
+Tất cả mọi người đóng góp đều đáng được khen ngợi và công nhận
+từ đồng nghiệp và quản lý. Không lợi dụng vị trí, quyền lực hay quan
+hệ để chiếm đoạt công lao của người khác hay đưa ra công lao không
+thuộc về mình. Điều này thể hiện sự tôn trọng đối với đóng góp của người khác
+và giúp họ có dộng lực để tiếp tục làm việc.
+
+\section{SELF}
+\setcounter{subsection}{1}
+\subsection{Improve their ability to create safe, reliable, and 
+useful quality software at reasonable cost and within a
+reasonable time.}
+Ví dụ: Để sản xuất phần mềm chất lượng cao, an toàn và đáng tin cậy, 
+kỹ sư phần mềm cần không ngừng nâng cao khả năng của mình trong 
+thời đại công nghệ liên tục phát triển, cập nhật. Ta dành thời gian 
+học hỏi và thực hành các kỹ thuật mới, cải thiện quy trình phát triển 
+và áp dụng các phương pháp kiểm tra và đánh giá. Ta cũng cần tìm cách 
+tối ưu hóa quá trình làm việc và sản phẩm của mình để giảm thiểu 
+chi phí và thời gian, mà vẫn đảm bảo rằng sản phẩm cuối cùng đạt được 
+chất lượng mong muốn.
+\end{document}

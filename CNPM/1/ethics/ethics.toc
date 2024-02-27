@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}PUBLIC}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Accept full responsibility for their own work}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Approve software only if they have a well-founded belief that it is safe, meets specifications, passes appropriate tests, and does not diminish quality of life, diminish privacy or harm the environment. The ultimate effect of the work should be to the public good.}{3}{}%
+\contentsline {section}{\numberline {2}CLIENT AND EMPLOYER}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Provide service in their areas of competence, being honest and forthright about any limitations of their experience and education.}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Not knowingly use software that is obtained or retained either illegally or unethically}{4}{}%
+\contentsline {section}{\numberline {3}PRODUCT}{4}{}%
+\contentsline {subsection}{\numberline {3.7}Strive to fully understand the specifications for software on which they work.}{4}{}%
+\contentsline {section}{\numberline {4}JUDGMENT}{4}{}%
+\contentsline {subsection}{\numberline {4.3}Maintain professional objectivity with respect to any software or related documents they are asked to evaluate.}{4}{}%
+\contentsline {section}{\numberline {5}MANAGEMENT}{5}{}%
+\contentsline {subsection}{\numberline {5.4}Assign work only after taking into account appropriate contributions of education and experience tempered with a desire to further that education and experience.}{5}{}%
+\contentsline {section}{\numberline {6}PROFESSION}{5}{}%
+\contentsline {subsection}{\numberline {6.10}Avoid associations with businesses and organizations which are in conflict with this code.}{5}{}%
+\contentsline {section}{\numberline {7}COLLEAGUES}{6}{}%
+\contentsline {subsection}{\numberline {7.3}Credit fully the work of others and refrain from taking undue credit}{6}{}%
+\contentsline {section}{\numberline {8}SELF}{6}{}%
+\contentsline {subsection}{\numberline {8.2}Improve their ability to create safe, reliable, and useful quality software at reasonable cost and within a reasonable time.}{6}{}%
