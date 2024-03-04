@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.1)  4 MAR 2024 00:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.1)  4 MAR 2024 20:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -494,33 +494,28 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout3 = `models.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 29--34
+Underfull \hbox (badness 10000) in paragraph at lines 30--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
 
  []
 
 [3]
-<waterfall2.png, id=15, 905.784pt x 481.19775pt>
+<waterfall2.png, id=16, 905.784pt x 481.19775pt>
 File: waterfall2.png Graphic file (type png)
 <use waterfall2.png>
-Package pdftex.def Info: waterfall2.png  used on input line 55.
+Package pdftex.def Info: waterfall2.png  used on input line 75.
 (pdftex.def)             Requested size: 500.484pt x 265.87843pt.
  [4 <./waterfall2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 79--85
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 147--150
 
  []
 
@@ -528,56 +523,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--121
 <v-model.png, id=33, 1023.22275pt x 624.53325pt>
 File: v-model.png Graphic file (type png)
 <use v-model.png>
-Package pdftex.def Info: v-model.png  used on input line 175.
+Package pdftex.def Info: v-model.png  used on input line 200.
 (pdftex.def)             Requested size: 500.484pt x 305.47125pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8] [9 <./v-model.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 187--190
+ [8 <./v-model.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 245--249
 
  []
 
-<prototype.png, id=42, 1043.69925pt x 552.8655pt>
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 268--271
+
+ []
+
+<prototype.png, id=45, 1043.69925pt x 552.8655pt>
 File: prototype.png Graphic file (type png)
 <use prototype.png>
-Package pdftex.def Info: prototype.png  used on input line 193.
+Package pdftex.def Info: prototype.png  used on input line 274.
 (pdftex.def)             Requested size: 500.484pt x 265.1109pt.
-[10 <./prototype.png>] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 222--224
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
-<spiral.png, id=50, 637.78275pt x 558.888pt>
+[11 <./prototype.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 305--308
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 316--318
+
+ []
+
+<spiral.png, id=53, 637.78275pt x 558.888pt>
 File: spiral.png Graphic file (type png)
 <use spiral.png>
-Package pdftex.def Info: spiral.png  used on input line 227.
+Package pdftex.def Info: spiral.png  used on input line 321.
 (pdftex.def)             Requested size: 350.33727pt x 307.01411pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--238
+Underfull \hbox (badness 10000) in paragraph at lines 326--332
 
  []
 
-[12 <./spiral.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
-
- []
-
-[13] (./models.aux) ) 
+[13 <./spiral.png>] [14] [15] [16] (./models.aux) ) 
 Here is how much of TeX's memory you used:
- 4742 strings out of 479675
- 73038 string characters out of 5884520
- 363455 words of memory out of 5000000
- 22797 multiletter control sequences out of 15000+600000
+ 4744 strings out of 479675
+ 73068 string characters out of 5884520
+ 363473 words of memory out of 5000000
+ 22799 multiletter control sequences out of 15000+600000
  483929 words of font info for 61 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
- 55i,7n,65p,425b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,7n,65p,267b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {e:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><e:/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><e:/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><e:/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnr17.pfb><e:/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on models.pdf (13 pages, 376051 bytes).
+Output written on models.pdf (16 pages, 382796 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
