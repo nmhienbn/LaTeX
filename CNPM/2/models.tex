@@ -3,7 +3,7 @@
 % Là gì, vẽ hình minh họa, phân tích ưu nhược điểm
 % giải thích tại sao có ưu nhược điểm đấy
 % khi nào sử dụng
-% Chỉ có mô hình chữ V cần dùng mô tả của thác nước and nói
+% Chỉ có \textit{mô hình chữ V} cần dùng mô tả của thác nước and nói
 % rõ sự khác biệt
 \documentclass[14pt]{extarticle}
 \usepackage{multicol}
@@ -36,7 +36,7 @@ những điều kiện về tự nhiên, về xã hội tương đồng.\\
 
 Thứ hai, vòng đời của một phần mềm bao gồm hai giai đoạn:
 \begin{itemize}
-  \item Giai đoạn phát triển phần mềm: bao gồm cái hoạt động:
+  \item Giai đoạn phát triển phần mềm: bao gồm các hoạt động:
         \begin{itemize}
           \item Phân tích và đặc tả yêu cầu
           \item Thiết kế
@@ -46,8 +46,8 @@ Thứ hai, vòng đời của một phần mềm bao gồm hai giai đoạn:
   \item Giai đoạn vận hành và bảo trì
 \end{itemize}
 
-Như vậy, mô hình phát triển phần mềm là khái quát lại một quy trình phát triển
-phần mềm có hiệu quả được đúc rút từ kinh nghiệm thực tế. Mô hình
+Như vậy, mô hình phát triển phần mềm là khái quát lại một cách làm
+phần mềm có hiệu quả được đúc rút từ kinh nghiệm, thành công trong thực tế. Mô hình
 này bao gồm các pha, các nguyên tắc, nguyên lý để hướng
 đến mục tiêu cuối cùng là phát triển phần mềm một cách hiệu
 quả nhất.\\
@@ -55,7 +55,7 @@ quả nhất.\\
 Mỗi mô hình phát triển phần mềm đều có những ưu nhược điểm
 riêng, và phù hợp với các dự án có một số đặc điểm nhất định.
 Do đó, việc lựa chọn mô hình phát triển phần mềm phù hợp với
-dự án là một vấn đề quyết định đến thành công của dự án.
+dự án là một vấn đề tối quan trọng quyết định đến thành công của dự án.
 \newpage
 \section{Mô hình thác nước (Waterfall model)} \label{sec:waterfall}
 
@@ -64,12 +64,12 @@ Mô hình thác nước là mô hình phát triển phần mềm đầu tiên,
 sơ khai nhất, tự nhiên nhất và vẫn còn phổ biến đến hiện nay.
 
 Mô hình này chia quá trình phát triển phần mềm thành các giai đoạn
-tuần tự (các pha), nghĩa là hoàn thành pha này mới tài liệu để
+tuần tự (các pha), nghĩa là hoàn thành pha này mới có tài liệu để
 chuyển sang được pha tiếp theo.
 Điều này khá giống với dòng thác nước, nước đổ từ bậc trên
 xuống bậc dưới vậy, bậc trên phải đầy thì nước mới tràn xuống bậc dưới.
 
-Từ vòng đời của một phần mềm, mô hình thác nước được xây dựng như sau:
+Từ vòng đời của một phần mềm, \textit{mô hình thác nước} được xây dựng như sau:
 \begin{figure}[h]
   \centering
   \includegraphics[width=\textwidth]{waterfall2.png}
@@ -81,7 +81,7 @@ Tuy nhiên, không phải pha nào cũng có thể thực hiện một cách ho�
 Lỗi có thể xảy ra ở bất kỳ pha nào, tại bất kỳ thời điểm nào, và giả
 sử lỗi được phát hiện là của pha trước đó thì ta cần phải quay lại pha
 trước đó để sửa. Một điều cần chú ý là để đảm bảo tính tuần tự của
-mô hình thác nước, khi gặp lỗi, ta phải dừng pha đang làm lại (nói
+\textit{mô hình thác nước}, khi gặp lỗi, ta phải dừng pha đang làm lại (nói
 cách khác là dừng cả quy trình lại), lật lại pha trước đó để xem
 vấn đề ở đâu và sửa lỗi. Điều này có thể gây đến nhiều hệ lụy sẽ được
 đề cập ở phần nhược điểm bên dưới.
@@ -89,7 +89,7 @@ vấn đề ở đâu và sửa lỗi. Điều này có thể gây đến nhiề
 \subsection{Ưu điểm}
 
 \subsubsection*{Dễ hiểu, dễ học}
-Có thể thấy, mô hình thác nước là mô hình cơ bản nhất: chỉ là việc
+Có thể thấy, \textit{mô hình thác nước} là mô hình cơ bản nhất: chỉ là việc
 triển khai tuần tự các hoạt động trong vòng đời phát triển của một phần mềm thành
 các pha.
 Việc triển khai tuần tự nghĩa là các hoạt động được thực hiện một cách rõ ràng,
@@ -97,17 +97,17 @@ lần lượt, không có sự chồng chéo giữa các hoạt động. Điều
 hiểu và học mô hình này trở nên dễ dàng hơn.
 
 \subsubsection*{Đảm bảo được phần mềm có chất lượng cao}
-Khi đã xác định sử dụng mô hình thác nước để phát triển phần mềm
+Khi đã xác định sử dụng \textit{mô hình thác nước} để phát triển phần mềm
 thì người ta cũng xác định việc triển khai tuần tự các pha. Nhận thức
 được điều đó, họ luôn phải cẩn thận trong từng bước bởi rất ít cơ hội
 để quay lại và sửa lỗi. Mỗi lần làm cần kiểm tra lại, cần có tài liệu
 đầy đủ. Và mỗi pha cũng cần làm sao cho việc quay lại và sửa lỗi
-tốn ít thời gian và kinh phí nhất có thể.\\
+tốn ít thời gian và kinh phí nhất có thể.
 
 \subsubsection*{Dễ quản lý}
-Quy trình phát triển phần mềm theo mô hình thác nước dễ quản lý do
+Quy trình phát triển phần mềm theo \textit{mô hình thác nước} dễ quản lý do
 việc triển khai theo từng pha nên dễ quản lý tiến độ. Pha sau cũng luôn
-có cái nhìn tổng thể về hệ thống của các pha trước nên mô hình thác nước
+có cái nhìn tổng thể về hệ thống của các pha trước nên \textit{mô hình thác nước}
 sẽ có chất lượng cao hơn các mô hình làm từng phần.
 
 \subsection{Nhược điểm}
@@ -129,12 +129,12 @@ pha trước đó sẽ làm tăng thêm thời gian và chi phí.
 \subsubsection*{Không linh hoạt, nếu phát hiện lỗi ở những bước cuối là thảm họa}
 
 Do việc triển khai tuần tự nên nếu có lỗi xảy ra ở pha nào đó, cần
-dừng quy trình để quay lại pha trước đó, từ đó làm tăng thời gian và chi phí
+dừng quy trình để quay lại các pha trước đó, từ đó làm tăng thời gian và chi phí
 để chỉnh sửa. Điều này thật sự không linh hoạt nếu khách hàng thường xuyên
 thay đổi yêu cầu.
 
-Giả sử lỗi bắt nguồn từ những pha đầu tiên thì ta cần rất nhiều thời gian,
-chi phí để rework lại các bước trước.
+Giả sử lỗi bắt nguồn từ những pha đầu tiên những đến bước cuối mới phát hiện
+thì ta cần rất nhiều thời gian, chi phí để rework lại tất cả các bước.
 Hệ quả là chúng ta có thể hết thời gian giao phần mềm cho khách hàng, hoặc
 hết kinh phí để hoàn thành dự án.
 
@@ -145,8 +145,9 @@ Nhưng người ta vẫn chưa biết nó là cái gì, nó làm được nhữn
 như thế nào.
 
 Khi khách hàng có yêu cầu về phần mềm chưa rõ ràng (dù chỉ là một trong
-nhiều yêu cầu), thì ta không thể sử dụng mô hình thác nước bởi yêu cầu đó
-sẽ khiến ta phải dừng pha đặc tả yêu cầu lại cho đến khi yêu cầu rõ ràng.\\
+nhiều yêu cầu), thì ta không thể sử dụng \textit{mô hình thác nước} bởi yêu cầu đó
+sẽ khiến ta phải dừng pha \textit{phân tích và đặc tả yêu cầu} lại cho đến
+khi yêu cầu rõ ràng.
 
 
 \subsubsection*{Kiểm thử muộn và chung chung}
@@ -154,11 +155,11 @@ Kiểm thử bao gồm có $4$ mức: kiểm thử đơn vị, kiểm thử tíc
 hệ thống và kiểm thử chấp nhận. Việc kiểm thử chỉ thực hiện khi có sản phẩm
 hay một phần sản phẩm cuối cùng.
 
-Có thể thấy trong mô hình thác nước, lần đầu tiên khách hàng nhìn thấy sản phẩm
+Có thể thấy trong \textit{mô hình thác nước}, lần đầu tiên khách hàng nhìn thấy sản phẩm
 (ở bước kiểm thử chấp nhận) cũng là thời điểm họ sử dụng phần mềm luôn.
 
 Một nguyên tắc cơ bản của phát triển phần mềm là cố gắng đưa người dùng vào
-test sớm nhất có thể. Tuy nhiên, với đặc điểm trên thì mô hình thác nước
+test sớm nhất có thể. Tuy nhiên, với đặc điểm trên thì \textit{mô hình thác nước}
 không thể triển khai được nguyên tắc này. Điều đó có thể dẫn đến các
 hệ lụy sau:
 \begin{itemize}
@@ -170,10 +171,10 @@ hệ lụy sau:
         Do đó, ta cần đào tạo khách hàng để họ có thể dùng thạo phần mềm.
         Mức hài lòng của khách hàng cũng phụ thuộc rất nhiều vào việc họ
         có thể sử dụng phần mềm một cách thành thạo hay không.\\
-        Tuy nhiên, trong mô hình thác nước, lần đầu nhìn thấy sản phẩm cũng
+        Tuy nhiên, trong \textit{mô hình thác nước}, lần đầu nhìn thấy sản phẩm cũng
         là lúc khách hàng phải học cách sử dụng nó luôn nên họ rất dễ vấp
         khi dùng. Điều này khó hơn hẳn với việc họ được liên tục hỏi ý kiến
-        hay nhìn thấy, dùng thử phần mềm trước đó.
+        hay nhìn thấy, dùng thử một phần của phần mềm trước.
 \end{itemize}
 
 \subsection{Khi nào sử dụng}
@@ -184,7 +185,7 @@ chi phí, thời gian bởi nếu có lỗi xảy ra ở pha nào đó, ta cần
 quay lại pha trước sửa lỗi. Tương tự, nó cũng không phù hợp với các dự án mà
 yêu cầu thay đổi thường xuyên.
 
-Với yêu cầu không rõ ràng, mô hình thác nước cũng không phù hợp vì ta phải
+Với yêu cầu không rõ ràng, \textit{mô hình thác nước} cũng không phù hợp vì ta phải
 dừng lại ở pha đặc tả yêu cầu cho đến khi yêu cầu rõ ràng.
 
 
@@ -193,8 +194,8 @@ dừng lại ở pha đặc tả yêu cầu cho đến khi yêu cầu rõ ràng.
 \section{Mô hình chữ V (V model)}
 \subsection{Định nghĩa}
 Mô hình chữ V là mô hình phát triển phần mềm được cải tiến từ
-mô hình thác nước. Về cơ bản, mô hình chữ V cũng triển khai tuần tự
-các pha như mô hình thác nước.
+\textit{mô hình thác nước}. Về cơ bản, \textit{mô hình chữ V} cũng triển khai tuần tự
+các pha như \textit{mô hình thác nước}.
 \begin{figure}[h]
   \centering
   \includegraphics[width=\textwidth]{v-model.png}
@@ -202,23 +203,23 @@ các pha như mô hình thác nước.
   \label{fig:v-model}
 \end{figure}
 
-Tuy nhiên, mô hình chữ V cải tiến
-từ mô hình thác nước ở hai điểm sau:
+Tuy nhiên, \textit{mô hình chữ V} cải tiến
+từ \textit{mô hình thác nước} ở hai điểm sau:
 \begin{itemize}
   \item \textbf{Đẩy việc sinh test lên sớm hơn}\\
-        Trong mô hình thác nước, kiểm thử chỉ thực hiện sau pha \textit{implementing
+        Trong \textit{mô hình thác nước}, kiểm thử chỉ thực hiện sau pha \textit{implementing
           và kiểm thử đơn vị}. Nói chính xác hơn là sau pha này mới thực hiện
         việc sinh test và kiểm thử. Đầu ra của các pha \textit{phân tích và đặc tả
           yêu cầu}, \textit{thiết kế} chỉ có tài liệu cho các pha sau. \\
-        Trong mô hình chữ V, người ta đẩy việc sinh test lên sớm hơn. Ví dụ,
+        Trong \textit{mô hình chữ V}, người ta đẩy việc sinh test lên sớm hơn. Ví dụ,
         với pha \textit{phân tích và đặc tả yêu cầu}, đầu ra sẽ có thêm các bộ test
         cho pha đó. Sau này khi có sản phẩm hoàn chỉnh để kiểm thử, chỉ
         cần qua được các bộ test này là sản phẩm đáp ứng được đặc tả yêu cầu.
         Tương tự với pha \textit{thiết kế}.
 
   \item \textbf{Phân chia kiểm thử thành nhiều mức}\\
-        Trong mô hình thác nước, việc kiểm thử vẫn còn quá chung chung.\\
-        Trong mô hình chữ V, người ta phân chia kiểm thử thành nhiều mức:
+        Trong \textit{mô hình thác nước}, việc kiểm thử vẫn còn quá chung chung.\\
+        Trong \textit{mô hình chữ V}, người ta phân chia kiểm thử thành nhiều mức:
         \begin{itemize}
           \item Kiểm thử đơn vị
           \item Kiểm thử tích hợp
@@ -229,26 +230,29 @@ từ mô hình thác nước ở hai điểm sau:
 \end{itemize}
 
 \subsection{Ưu điểm}
-Mô hình chữ V vẫn thừa kế được những ưu điểm của mô hình thác nước:
+Mô hình chữ V vẫn thừa kế được những ưu điểm của \textit{mô hình thác nước}:
 \begin{itemize}
-  \item Dễ hiểu, dễ học. Tuy có chút thay đổi, nhưng mô hình chữ V vẫn
-        giữ nguyên cấu trúc tuần tự của mô hình thác nước nên vẫn dễ hiểu, dễ học.
+  \item Dễ hiểu, dễ học. Tuy có chút thay đổi, nhưng \textit{mô hình chữ V} vẫn
+        giữ nguyên cấu trúc tuần tự của \textit{mô hình thác nước} nên vẫn dễ hiểu, dễ học.
 
   \item Đảm bảo được phần mềm có chất lượng cao
   \item Dễ quản lý tiến độ
 \end{itemize}
-Tuy nhiên, mô hình chữ V còn có những ưu điểm riêng:
-\subsubsection*{Phân chia kiểm thử thành nhiều mức}
-Phân chia kiểm thử thành nhiều mức giúp cho việc kiểm thử trở nên chặt chẽ,
-chi tiết hơn.
-\subsubsection*{Đẩy việc sinh test lên sớm hơn}
-Đẩy việc sinh test lên sớm hơn giúp cho các test cases tốt hơn, sát hơn với
-yêu cầu của khách hàng, với thiết kế của phần mềm.\\
-Sau này chỉ cần qua được các test cases này là sản phẩm đáp ứng được yêu cầu hay
-thiết kế.\\
+Tuy nhiên, \textit{mô hình chữ V} còn có những ưu điểm riêng:
+\begin{itemize}
+  \item Phân chia kiểm thử thành nhiều mức\\
+        Phân chia kiểm thử thành nhiều mức giúp cho việc kiểm thử trở nên chặt chẽ,
+        chi tiết các việc cần làm hơn. Từ đó, chất lượng của phần mềm được đảm bảo
+        hơn.
+  \item Đẩy việc sinh test lên sớm hơn\\
+        Đẩy việc sinh test lên sớm hơn giúp cho các test cases tốt hơn, sát hơn với
+        yêu cầu của khách hàng, với thiết kế của phần mềm.\\
+        Sau này chỉ cần qua được các test cases này là sản phẩm đáp ứng được yêu cầu hay
+        thiết kế.
+\end{itemize}
 \subsection{Nhược điểm}
-Do chỉ cải tiến về phần kiểm thử của mô hình thác nước nên mô hình chữ V
-vẫn còn những nhược điểm của mô hình thác nước:
+Do chỉ cải tiến về phần kiểm thử của \textit{mô hình thác nước} nên \textit{mô hình chữ V}
+vẫn còn những nhược điểm của \textit{mô hình thác nước}:
 \begin{itemize}
 \item {Không linh hoạt, chỉ phù hợp với dự án vừa và nhỏ}
 \item{Chi phí cao và thời gian lâu}
@@ -256,11 +260,11 @@ vẫn còn những nhược điểm của mô hình thác nước:
 \item{Tất cả các yêu cầu phải rõ ràng}
 \end {itemize}
 \subsection{Khi nào sử dụng}
-Tương tự với mô hình thác nước, mô hình chữ V chỉ phù hợp với các dự án vừa và nhỏ,
+Tương tự với \textit{mô hình thác nước}, \textit{mô hình chữ V} chỉ phù hợp với các dự án vừa và nhỏ,
 yêu cầu rõ ràng.\\
 
-Hiện nay, khi nhắc đến mô hình thác nước, chúng ta thường sử dụng mô hình chữ V
-thay cho mô hình thác nước nguyên thủy ở Mục ~\ref{sec:waterfall}.
+Hiện nay, khi nhắc đến mô hình thác nước, chúng ta thường sử dụng \textit{mô hình chữ V}
+thay cho \textit{mô hình thác nước nguyên thủy} ở Mục ~\ref{sec:waterfall}.
 
 \newpage
 \section{Mô hình bản mẫu (Prototype model)}
@@ -277,9 +281,9 @@ sử dụng thử.\\
 \end{figure}
 
 Khi khách hàng có yêu cầu về phần mềm chưa rõ ràng (dù chỉ là một trong
-nhiều yêu cầu), thì ta không thể sử dụng mô hình thác nước (Xem phần ~\ref{sec:clear-req}).\\
+nhiều yêu cầu), thì ta không thể sử dụng \textit{mô hình thác nước} (Xem phần ~\ref{sec:clear-req}).\\
 
-Để giải quyết vấn đề này, mô hình bản mẫu sẽ liên tục thiết kế các bản mẫu
+Để giải quyết vấn đề này, \textit{mô hình bản mẫu} sẽ liên tục thiết kế các bản mẫu
 (một giao diện giả của phần mềm) để cho khách hàng xem và đánh giá cho
 đến khi họ có thể đưa ra yêu cầu rõ ràng để ta có thể triển khai các pha
 tiếp theo.
@@ -304,7 +308,7 @@ có thể không đầy đủ.
 \subsection{Khi nào sử dụng}
 Ý tưởng của mô hình thiết kế rất hay tuy nhiên lại không được sử dụng phổ biến
 vì thời gian và chi phí cho bản mẫu quá lớn.
-Vì thế, mô hình bản mẫu thường được sử dụng trong các dự án vừa và nhỏ.\\
+Vì thế, \textit{mô hình bản mẫu} thường được sử dụng trong các dự án vừa và nhỏ.\\
 
 Trong thực tế người ta thường dùng ý tưởng bản mẫu như một cách để thu thập
 yêu cầu của khách hàng.
@@ -313,7 +317,7 @@ yêu cầu của khách hàng.
 \section{Mô hình xoắn ốc (Spiral model)}
 \subsection{Định nghĩa}
 
-Mô hình xoắn ốc là sự kết hợp của mô hình thác nước, mô hình bản mẫu
+Mô hình xoắn ốc là sự kết hợp của \textit{mô hình thác nước}, \textit{mô hình bản mẫu}
 và phân tích rủi ro, được phát triển theo cách tăng dần (incremental).\\
 
 \begin{figure}[h]
@@ -333,7 +337,7 @@ năng cốt lõi (core) trước, sau mới đến các tính năng ở mức tr
 Mỗi pha là một vòng xoáy, và mỗi vòng xoáy sẽ có các việc sau:
 \begin{itemize}
   \item \textbf{Lập kế hoạch}\\
-        Lập kế hoạch cho vòng xoáy này, xác định các mục tiêu, rủi ro,
+        Lập kế hoạch cho vòng xoáy này, xác định các mục tiêu, phạm vi,
         chi phí, thời gian, nguồn lực cần thiết.
   \item \textbf{Phân tích rủi ro}\\
         Phân tích rủi ro cho vòng xoáy này, xác định các rủi ro có thể
@@ -342,11 +346,11 @@ Mỗi pha là một vòng xoáy, và mỗi vòng xoáy sẽ có các việc sau:
         xảy ra, xác suất xảy ra là bao nhiêu, hệ quả của các rủi ro?
         Nếu chấp nhận rủi ro để làm tiếp thì cần đưa ra giải pháp phòng chống
         như thế nào?\\
-        Đây và vấn đề phức tạp, cần có chuyên gia rất thâm niên trong quản lý
+        Đây là vấn đề phức tạp, cần những chuyên gia có thâm niên trong quản lý
         dự án.
 
   \item \textbf{Phát triển phần mềm}\\
-        Một phần mô hình thác nước được sử dụng ở đây với các pha tuần tự:
+        Một phần \textit{mô hình thác nước} được sử dụng ở đây với các pha tuần tự:
         \begin{itemize}
           \item Phân tích và đặc tả yêu cầu
           \item Thiết kế
@@ -375,14 +379,14 @@ Không phải ngẫu nhiên các tính năng được chọn phát triển ở v
 Chúng ta sẽ làm các tính năng cốt lõi (core) trước, sau mới đến các tính năng ở
 mức trung bình (medium level), cuối cùng là các tính năng ít sử dụng.\\
 Như vậy, khách hàng cũng sẽ sớm trải nghiệm và đánh giá các tính năng cốt lõi
-họ cần để có thể chỉnh sửa nếu cần.
+để có thể chỉnh sửa nếu cần.
 \subsubsection*{Kết thúc từng pha bằng hỏi ý kiến khách hàng}
 Điều này có thể trực quan hóa cho khách hàng thấy được sự tiến triển của dự án
 và có thể đưa ra ý kiến sớm nhất có thể.
 
 \subsection{Nhược điểm}
 \subsubsection*{Nguy cơ vượt quá ngân sách hay chậm tiến độ}
-Mỗi vòng lặp thì lại có thêm các tính năng được chỉnh sửa hay bổ sung
+Việc mỗi vòng lặp có thêm các tính năng được chỉnh sửa hay bổ sung
 có thể dẫn đến dự án vượt khỏi ngân sách, kế hoạch ban đầu.\\
 Việc đánh giá rủi ro yêu cầu sự chuyên môn cao, và nếu không đánh giá
 chính xác thì có thể dẫn đến việc dự án vượt quá ngân sách, chậm tiến độ.
@@ -390,10 +394,12 @@ chính xác thì có thể dẫn đến việc dự án vượt quá ngân sách
 Được phân tích ở phần bên dưới
 \subsection{Khi nào sử dụng}
 Mô hình xoắn ốc thường sử dụng cho các hệ thống lớn, yêu cầu nhiều thay đổi.
+
 Các hệ thống càng lớn thì rủi ro cao dẫn đến chi phí cho rủi ro lớn, ko còn
 chi phí phát triển, software fail. Cần phải có chuyên gia về rủi ro, quản lý dự án
-thâm niên mới có thể dự đoán và hạn chế rủi ro.\\
-Do đó, mô hình xoắn ốc không sử dụng cho các hệ thống vừa và nhỏ bởi rủi ro ít,
+thâm niên mới có thể dự đoán và hạn chế rủi ro.
+
+Do đó, \textit{mô hình xoắn ốc} không sử dụng cho các hệ thống vừa và nhỏ bởi rủi ro ít,
 nên nếu sử dụng chỉ làm tăng chi phí, thời gian.
 
 

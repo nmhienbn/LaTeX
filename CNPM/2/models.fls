@@ -399,6 +399,7 @@ OUTPUT models.pdf
 INPUT e:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 OUTPUT models.toc
 INPUT e:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1440.tfm
+INPUT e:/texlive/2022/texmf-dist/fonts/tfm/vntex/vnr/vnti12.tfm
 INPUT ./waterfall2.png
 INPUT ./waterfall2.png
 INPUT waterfall2.png
@@ -409,7 +410,6 @@ INPUT ./v-model.png
 INPUT v-model.png
 INPUT ./v-model.png
 INPUT ./v-model.png
-INPUT e:/texlive/2022/texmf-dist/fonts/tfm/vntex/vnr/vnti12.tfm
 INPUT ./prototype.png
 INPUT ./prototype.png
 INPUT prototype.png
